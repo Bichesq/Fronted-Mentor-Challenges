@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+}
+
+.container-fluid {
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    background-color: hsl(47, 88%, 63%);
+    
+}
+
+.card {
+    border-radius: 20px;
+    box-shadow: 10px;
+}
+
+.card-image{
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.col-fluid {
+    width: 384px;
+    
+}
+
+.learning {
+    background-color: hsl(47, 88%, 63%);
+    padding: 5px;
+    width: 84px;
+    height: 30px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.pub-date {
+    font-size: 13px;
+}
+
+#desc {
+    font-size: 15px;
+    color: hsl(0, 0%, 42%);
+}
+
+.avatar {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    height: 34px;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.avatar img {
+    height: 100%;
+}
